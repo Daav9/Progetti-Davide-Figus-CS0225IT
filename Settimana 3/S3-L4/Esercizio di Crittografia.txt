@@ -1,0 +1,15 @@
+Esercizio di oggi: Crittografia.
+Dato un messaggio cifrato cercare di trovare il testo in chiaro:
+Messaggio cifrato: "HSNFRGH"
+
+Risposta - Basandoci secondo il Cifrario di Cesare, uno dei più antichi metodi di crittografia, e prendendo come numero fisso il 3 ( numero chiave ), spostandoci di 3 posizioni in questo caso indietro, troviamo il plaintext:
+H diventa E, S diventa P, N diventa I, F diventa C, R diventa O, G diventa D, H diventa E:
+- EPICODE
+
+Secondo esercizio: 
+QWJhIHZ6b2VidHl2bmdyIHB1ciB6ciBhciBucHBiZXRi
+
+Risposta - Il testo è completamente incomprensibile, però ci sono solo lettere maiuscole, minuscole e numeri. Da questo possiamo andare ad esclusione per la codifica. 
+E' un testo scritto in base 64, diventa quindi "Aba vzoebtyvngr pur zr ar nppbetb". Di conseguenza possiamo utilizzare di nuovo il Cifrario di Cesare, andando avanti di 13 in posizioni in questo caso, ottieniamo quindi: Non imbrogliate che me ne accorgo.
+
+Straordinario usare due metodi di crittografia, aggiungo inoltre che un aiutino me lo sono dato, ma penso faccia parte del percorso 8)

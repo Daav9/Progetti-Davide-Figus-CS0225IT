@@ -1,0 +1,5 @@
+Quando un pc deve comunicare con un altro pc di un'altra rete, crea un pacchetto contenente informazioni di controllo, come ip, sorgente e destinazione (Header), e i dati che si vogliono communicare con il pacchetto all'altro pc (Payload).
+A livello fisico, avviene uno scambio di segnali tramite cavi, mentre successivamente abbiamo i cosidetti "Layers".
+Il dispositivo sorgente, una volta creato il pacchetto contenente l'IP di destinazione e l'IP Gateway del Router, lo invia allo Switch, che controlla se la destinazione rientra nella stessa rete. In questo caso, dato che il PC destinatario si trova in un'altra rete, il pacchetto viene inviato al Router, che è responsabile del trasporto del pacchetto verso il destinatario.
+Questo perché il PC sorgente non conosce l'indirizzo MAC del PC destinatario ma conosce l'indirizzo MAC del router.
+Il Router, quindi, legge l'IP e deincapsulando il pacchetto, quindi creando un nuovo pacchetto con la MAC della porta di uscita, lo manda allo Switch (il secondo collegato all'altra rete), che si preoccupa di leggere la MAC del PC destinatario ed effettuare la consegna.

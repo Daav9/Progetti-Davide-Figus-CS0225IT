@@ -1,0 +1,146 @@
+ Esercizio Pratico Lezione 2.
+
+Dati richiesti:
+IP Network
+IP Gateway
+IP Broadcast
+Quantità di ottetti per gli Host
+Quantità e specificazione degli ottetti per la Network
+
+Indirizzo IP: 128.1.6.5 / 12
+Scritto in binario: 1000 0000 . 0000 0001 . 0000 0110 . 0000 0101
+
+IP Network: 1000 0000 . 0000 0000 . 0000 0000 . 0000 0000
+128.0.0.0
+
+IP Gateway: +1 rispetto all'indirizzo di rete (IP minimo) 
+1000 0000 . 0000 0000 . 0000 0000 . 0000 0001
+128.0.0.1
+
+IP Broadcast: 1000 0000 . 0000 1111 . 1111 1111 . 1111 1111
+128.15.255.255
+
+Quantità di ottetti per gli Host: (I primi 12 Bit sono fissi per la Network), avendo 32 bit di conseguenza, 32 - 12 = 20, 20:32=x:4
+80/32 = 2.5
+
+Quantità di ottetti per la Network: Il restante di 4 ottetti, 1.5
+
+----------------------
+
+Indirizzo IP: 200.1.2.3 / 24
+
+Scritto in binario: 1100 1000 . 0000 0001 . 0000 0010 . 0000 0011
+
+IP Network: 1100 1000 . 0000 0001 . 0000 0010 . 0000 0000 
+200.1.2.0
+
+IP Gateway: +1 rispetto all'indirizzo di rete (IP minimo) 
+
+1100 1000 . 0000 0001 . 0000 0010 . 0000 0001
+
+200.1.2.1
+
+IP Broadcast: 1100 1000 . 0000 0001 . 0000 0010 . 1111 1111
+
+128.1.2.255
+
+Quantità di ottetti per gli Host: (I primi 24 Bit sono fissi per la Network), di conseguenza 32 - 24 = 8, 8:32=x:4 
+32/32 = 1 
+
+
+Quantità di ottetti per la Network: Il restante di 4 ottetti, 3
+
+----------------------
+Indirizzo IP: 192.192.1.1 / 22
+
+Scritto in binario: 1100 0000 . 1100 0000 . 0000 0001 . 0000 0001
+
+IP Network: 1100 0000 . 1100 0000 . 0000 0000 . 0000 0000
+
+192.192.0.0
+
+IP Gateway: +1 rispetto all'indirizzo di rete (IP minimo) 
+
+1100 0000 . 1100 0000 . 0000 0000 . 0000 0001
+
+192.192.0.1
+
+IP Broadcast: 1100 0000 . 1100 0000 . 0000 0011 . 1111 1111
+
+192.192.3.255
+
+Quantità di ottetti per gli Host: (I primi 22 Bit sono fissi per la Network), 32-22 = 10, 10:32=x:4 
+40/32= 1.25
+
+
+Quantità di ottetti per la Network: Il restante, 2.75
+
+-------------------------------
+
+Indirizzo IP: 126.5.4.3 / 9
+ 
+Scritto in binario: 0111 1110 . 0000 0101 . 0000 0100 . 0000 0011
+
+IP Network: 0111 1110 . 0000 0000 . 0000 0000 . 0000 0000 
+126.0.0.0
+
+IP Gateway: +1 rispetto all'indirizzo di rete (IP minimo) 
+0111 1110 . 0000 0000 . 0000 0000 . 0000 0001
+
+126.0.0.1
+
+
+IP Broadcast: 
+0111 1110 . 0111 1111 . 1111 1111 . 1111 1111
+
+126.127.255.255
+
+Quantità di ottetti per gli Host: (I primi 9 Bit sono fissi per la Network), 32-9 = 23, 23:32=x:4 
+92/32 = 2.875
+
+
+Quantità di ottetti per la Network: Il restante, 1.125
+
+--------------------------
+
+Indirizzo IP: 200.1.9.8 / 24
+Scritto in binario: 1100 1000 . 0000 0001 . 0000 1001 . 0000 1000
+
+IP Network: 1100 1000 . 0000 0001 . 0000 1001 . 0000 0000
+200.1.9.0
+
+IP Gateway: +1 rispetto all'indirizzo di rete (IP minimo) 
+1100 1000 . 0000 0001 . 0000 1001 . 0000 0001
+
+200.1.9.1
+
+IP Broadcast: 1100 1000 . 0000 0001 . 0000 1001 . 1111 1111
+200.1.9.255
+
+Quantità di ottetti per gli Host: (I primi 24 Bit sono fissi per la Network), 32-24= 8, 8:32=x:4 
+32/32 = 1
+
+
+Quantità di ottetti per la Network: Il restante, 3
+
+-------------------------
+
+Indirizzo IP: 172.16.0.4 / 16
+
+Scritto in binario: 1010 1100 . 0001 0000 . 0000 0000 . 0000 0010
+
+IP Network: 1010 1100 . 0001 0000 . 0000 0000 . 0000 0000
+172.16.0.0
+
+IP Gateway: +1 rispetto all'indirizzo di rete (IP minimo) 
+1010 1100 . 0001 0000 . 0000 0000 . 0000 0001
+172.16.0.1
+
+IP Broadcast: 1010 1100 . 0001 0000 . 1111 1111 . 1111 1111
+172.16.255.255
+
+Quantità di ottetti per gli Host: (I primi 16 Bit sono fissi per la Network), 32-16= 16, 16:32=x:4 
+48/32= 1.5
+
+
+Quantità di ottetti per la Network: Il restante, 2.5

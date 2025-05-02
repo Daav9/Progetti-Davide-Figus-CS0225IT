@@ -1,0 +1,19 @@
+Rete segmentata con 4 VLAN diverse
+
+La rete è composta da:
+2 Switch
+12 PC, 3 per ogni VLAN
+4 VLAN che sono state divise per reparti: Operation, HR, Support e Associates.
+
+Si è scelto di ricorrere alle VLAN per creare delle sottoreti, ciascuna per ogni VLAN assegnate ad un reparto specifico, al fine di incrementare la sicurezza, l'organizzazione e la gestione della rete.
+Con l'utilizzo delle VLAN, infatti, abbiamo più sicurezza, in quanto un eventuale attacco informatico (esterno) o un'esposizione verso minacce da parte di un dipendente (interno) possano rimanere limitati alla VLAN stessa, in quanto essa impedisce la comunicazione di 2 dispositivi presenti in 2 reti diverse.
+Possiamo avere anche altri benefici oltre ad appunto il traffico isolato, quali: 
+- Miglioramento delle prestazioni, in quanto ciascuna VLAN riduce il traffico Broadcast (solo i dispositivi della stessa sottorete possono comunicare tra loro e non si hanno scambi di pacchetti inutili).
+- Gestione semplificata (possiamo configurare ciascuna VLAN come se fosse una rete a parte, avendo un'organizzazione più efficiente).
+
+Tramite Packet Tracer, dopo aver configurato ogni PC, con un'indirizzo IP nella sottorete corrispondente alla propria VLAN, è stata effettuata una prova di Ping, quindi si hanno ottenuto i seguenti risultati:
+- Ogni VLAN è isolata, di conseguenza ciascun reparto isolato ad esso.
+- Il Ping tra PC della stessa VLAN funziona effettivamente.
+-Il Ping tra PC di 2 VLAN diverse non funziona, come previsto.
+
+

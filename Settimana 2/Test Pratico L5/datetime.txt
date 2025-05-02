@@ -1,0 +1,20 @@
+1. Capire cosa fa il programma senza eseguirlo.
+
+- Il programma è basato su un assistente virtuale che fornisce informazioni all'utente, tra le quali l'ora e la data di oggi.
+
+
+2. Individuare nel codice sorgente le casistiche non standard che il programma non gestisce (esempio, comportamenti potenziali che non sono stati contemplati).
+
+- Il programma non fornisce un print dei comandi, quindi l'utente non saprebbe quali domande potrebbe effettivamente fare all'assistente virtuale, rendendo così l'esperienza per l'utente complessa. 
+
+
+3. Individuare eventuali errori di sintassi / logici.
+
+- Il primo errore si verifica a livello di sintassi nella riga 4, tra la classe e il metodo, andrebbe aggiunto un punto, sarebbe quindi datetime.date.today().
+
+- Il secondo errore è sempre a livello di sintassi nella condizione while True, dopo il True servirebbero due puntini previsti come inizio di un blocco di codice.
+
+
+4. Proporre una soluzione per ognuno di essi.
+
+- Modificare la sintassi nei due errori precedenti, quindi aggiungere il punto tra date e today e i due puntini dopo while True.
