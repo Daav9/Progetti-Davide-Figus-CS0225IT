@@ -1,0 +1,1 @@
+-Repo dedicata unicamente ai progetti Epicode personali.  *Last Changes: 02/05/2025 "Ho riordinato la repo in quanto era molto confusa, creando più macro-cartelle"
